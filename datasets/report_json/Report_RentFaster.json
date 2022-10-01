@@ -1,0 +1,92 @@
+[
+  {
+    "CityName": "Kelowna",
+    "Province": "BC",
+    "RentFaster": 4
+  },
+  {
+    "CityName": "West Kelowna",
+    "Province": "BC",
+    "RentFaster": 4
+  },
+  {
+    "CityName": "Penticton",
+    "Province": "BC",
+    "RentFaster": 7
+  },
+  {
+    "CityName": "Nanaimo",
+    "Province": "BC",
+    "RentFaster": 5
+  },
+  {
+    "CityName": "Victoria",
+    "Province": "BC",
+    "RentFaster": 39
+  },
+  {
+    "CityName": "Vernon",
+    "Province": "BC",
+    "RentFaster": 2
+  },
+  {
+    "CityName": "Armstrong",
+    "Province": "BC",
+    "RentFaster": 0
+  },
+  {
+    "CityName": "Enderby",
+    "Province": "BC",
+    "RentFaster": 0
+  },
+  {
+    "CityName": "Oliver",
+    "Province": "BC",
+    "RentFaster": 0
+  },
+  {
+    "CityName": "Osoyoos",
+    "Province": "BC",
+    "RentFaster": 0
+  },
+  {
+    "CityName": "Kaleden",
+    "Province": "BC",
+    "RentFaster": 8
+  },
+  {
+    "CityName": "Kamloops",
+    "Province": "BC",
+    "RentFaster": 3
+  },
+  {
+    "CityName": "Salmon Arm",
+    "Province": "BC",
+    "RentFaster": 0
+  },
+  {
+    "CityName": "Courtenay",
+    "Province": "BC",
+    "RentFaster": 5
+  },
+  {
+    "CityName": "Comox",
+    "Province": "BC",
+    "RentFaster": 4
+  },
+  {
+    "CityName": "Campbell River",
+    "Province": "BC",
+    "RentFaster": 6
+  },
+  {
+    "CityName": "Parksville",
+    "Province": "BC",
+    "RentFaster": 3
+  },
+  {
+    "CityName": "Okanagan",
+    "Province": "BC",
+    "RentFaster": 3
+  }
+]
