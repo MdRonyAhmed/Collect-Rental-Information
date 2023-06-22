@@ -1,11 +1,10 @@
 # Collect-Rental-Information
-This is a data scraping project. The goal of this project is to collect rental information from various types of websites that are providing rental information including Facebook Marketplace, Kijiji, Zillow.
+This project focuses on data scraping and aims to collect rental information from different websites, including Facebook Marketplace, Kijiji, and Zillow. The goal is to extract relevant data such as rental prices, property details, and contact information.
 
-Here I have used various types of techniques to scrape different websites.
-This repository is not containing the full project as it's an private project. But if you have any quaries about that please ping me in linkedin.
+Various techniques and tools have been employed to scrape data from these websites. While the full project repository is not available, if you have any specific queries or questions regarding the project, feel free to reach out to me on LinkedIn. I'll be happy to assist you with any inquiries you may have.
 
 # Language
-NodeJs ( Framwork of JavaScript)
+NodeJs ( Framework of JavaScript)
 
 # Tools
 Puppeteer, Axios
