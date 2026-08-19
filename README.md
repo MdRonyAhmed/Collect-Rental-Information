@@ -1,16 +1,21 @@
-# Collect-Rental-Information
-This project is centered around data scraping to gather rental information from diverse platforms like Facebook Marketplace, Kijiji, and Zillow. The aim is to extract pertinent data including rental prices, property particulars, and contact details, followed by uploading the acquired data to the database.
+# Multi-Platform Real Estate & Rental Data Pipeline
 
-A range of techniques and tools has been utilized to scrape data from source websites. Although the complete project repository is not accessible, if you have any particular queries or require further information about the project, please don't hesitate to connect with me on LinkedIn. I'll gladly address any inquiries you may have.
+An enterprise-grade, modular Node.js scraping and data ingestion engine designed to extract, clean, and persist rental market listings from multiple distinct real estate platforms simultaneously.
 
-# Language
-NodeJs ( Framework of JavaScript)
+## Architecture & Core Modules
 
-# Tools
-Puppeteer, Axios
+The project utilizes a modular scraper architecture where each target platform has a dedicated extraction engine:
+* **Major Platforms:** Facebook Marketplace (`index_fb.js`), Kijiji (`index_kijiji.js`), and Zillow (`index_zillow.js`).
+* **Regional Canadian Boards:** Capreit (`index_capreit.js`), Castanet (`index_castanet.js`), UsedVictoria (`index_usedvictoria.js`), RentFaster (`index_rent_faster.js`), and more.
+* **Pipeline Utilities:** Includes dedicated automation scripts for data transformation, merging output files (`join_json_files.js`), and deduplication (`remove_duplicate_rows.js`).
 
-# Database
-PostgreSQL
+## Tech Stack
+* **Language:** JavaScript (Node.js)
+* **Automation Framework:** Puppeteer, Axios
+* **Database & Storage:** PostgreSQL, CSV/JSON data streams
+
+## Database Integration
+Extracted property particulars, pricing, and contact information are processed, sanitized, and programmatically synced directly into a relational PostgreSQL database schema.
 
 # Sample Output
 ![Screenshot from 2022-10-01 19-08-16](https://user-images.githubusercontent.com/58313058/193411020-7b95f5e0-fedb-491b-857c-366c07567b53.png)
